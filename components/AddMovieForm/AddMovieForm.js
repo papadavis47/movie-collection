@@ -63,7 +63,7 @@ function AddMovieForm() {
                 rows={4}
                 name="comment"
                 id="comment"
-                className="block w-full border-gray-300 rounded-md shadow-sm resize-none outline-blue-500 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                className="block w-full p-6 border-gray-300 rounded-md shadow-sm resize-none outline-blue-500 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
                 defaultValue={''}
               />
             </div>
@@ -82,7 +82,7 @@ function AddMovieForm() {
                       id={category.id}
                       name="category"
                       type="radio"
-                      className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500"
+                      className="w-4 h-4 text-blue-600 border-gray-300 outline-blue-500 focus:ring-blue-500"
                     />
                     <label
                       htmlFor={category.id}
