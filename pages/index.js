@@ -4,7 +4,7 @@ import Title from '../components/Title'
 const Home = () => {
   return (
     <>
-      <Title text="my movie collection" />
+      <Title text="movie collection" />
       <AddMovieForm />
     </>
   )

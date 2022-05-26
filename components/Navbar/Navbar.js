@@ -39,13 +39,13 @@ function Navbar() {
             </Link>
           </div>
           <div className="flex items-center space-x-5">
-            <a href="#">
+            <a href="https://github.com/papadavis47/movie-collection">
               <ImGithub size={30} />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/papadavis47">
               <ImTwitter size={30} />
             </a>
-            <a href="#">
+            <a href="https://stackoverflow.com/users/9111781/jwdavis">
               <ImStackoverflow size={30} />
             </a>
           </div>
