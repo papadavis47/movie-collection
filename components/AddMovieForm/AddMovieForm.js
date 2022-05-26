@@ -3,7 +3,7 @@ import { movieCategories } from '../../globals/data.js'
 function AddMovieForm() {
   return (
     <div className="flex flex-col items-center max-w-5xl mx-auto mb-10">
-      <div className="w-full px-6 py-10 mt-4 bg-gray-100 shadow-sm shadow-gray-500 md:max-w-3xl md:px-10 md:py-12">
+      <div className="w-full px-6 py-10 mt-4 bg-gray-200 shadow-sm shadow-gray-500 md:max-w-3xl md:px-10 md:py-12">
         <form className="space-y-6" action="#" method="POST">
           <div>
             <label
@@ -53,7 +53,7 @@ function AddMovieForm() {
                 rows={4}
                 name="note"
                 id="note"
-                className="block w-full px-4 py-3 border-gray-300 rounded-md shadow-sm resize-none outline-blue-500 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                className="block w-full px-4 py-3 border-gray-300 rounded-md shadow-sm resize-none outline-blue-600 focus:border-blue-600 focus:ring-blue-600 sm:text-sm"
                 defaultValue={''}
               />
             </div>
@@ -73,7 +73,7 @@ function AddMovieForm() {
                       name="category"
                       type="radio"
                       defaultChecked={category.id === 'dvd'}
-                      className="w-4 h-4 text-blue-600 border-gray-300 outline-blue-500 focus:ring-blue-500"
+                      className="w-4 h-4 text-blue-600 border-gray-300 outline-blue-600 focus:ring-blue-600"
                     />
                     <label
                       htmlFor={category.id}

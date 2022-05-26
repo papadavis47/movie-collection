@@ -4,7 +4,7 @@ import { ImStackoverflow, ImGithub, ImTwitter } from 'react-icons/im'
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 mb-10 text-white bg-blue-500">
+    <nav className="sticky top-0 mb-10 text-white bg-blue-600">
       {/* container div below */}
       <div className="px-4 mx-auto max-w-7xl">
         {/* sub-container */}
