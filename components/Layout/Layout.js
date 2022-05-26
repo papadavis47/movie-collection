@@ -7,7 +7,7 @@ function Layout({ children }) {
     <div className="flex flex-col min-h-screen">
       <Head>
         <title>My Movie Collection</title>
-        <link rel="icon" href="/surfing.ico" />
+        <link rel="icon" href="/water_wave.ico" />
       </Head>
       <Navbar />
       <main className="flex-1 w-full px-10">{children}</main>
