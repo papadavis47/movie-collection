@@ -64,7 +64,7 @@ function AddMovieForm() {
               Media Type
             </label>
             <fieldset className="mt-4">
-              <legend className="sr-only">Notification method</legend>
+              <legend className="sr-only">Media Type</legend>
               <div className="space-y-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-10">
                 {movieCategories.map((category) => (
                   <div key={category.id} className="flex items-center">
