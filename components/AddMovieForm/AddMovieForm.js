@@ -3,7 +3,7 @@ import { movieCategories } from '../../globals/data.js'
 function AddMovieForm() {
   return (
     <div className="flex flex-col items-center max-w-5xl mx-auto mb-10">
-      <div className="w-full px-6 py-10 mt-4 bg-gray-200 shadow-sm shadow-gray-500 md:max-w-3xl md:px-10 md:py-12">
+      <div className="w-full px-6 py-10 mt-4 bg-gray-200 shadow-md shadow-gray-500 md:max-w-3xl md:px-10 md:py-12">
         <form className="space-y-6" action="#" method="POST">
           <div>
             <label

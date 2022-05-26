@@ -39,13 +39,25 @@ function Navbar() {
             </Link>
           </div>
           <div className="flex items-center space-x-5">
-            <a href="https://github.com/papadavis47/movie-collection">
+            <a
+              href="https://github.com/papadavis47/movie-collection"
+              target="_blank"
+              rel="noreferrer"
+            >
               <ImGithub size={30} />
             </a>
-            <a href="https://twitter.com/papadavis47">
+            <a
+              href="https://twitter.com/papadavis47"
+              target="_blank"
+              rel="noreferrer"
+            >
               <ImTwitter size={30} />
             </a>
-            <a href="https://stackoverflow.com/users/9111781/jwdavis">
+            <a
+              href="https://stackoverflow.com/users/9111781/jwdavis"
+              target="_blank"
+              rel="noreferrer"
+            >
               <ImStackoverflow size={30} />
             </a>
           </div>
