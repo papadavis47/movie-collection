@@ -4,7 +4,7 @@ import { ImStackoverflow, ImGithub, ImTwitter } from 'react-icons/im'
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 mb-10 text-white bg-blue-500/80">
+    <nav className="sticky top-0 mb-10 text-white bg-blue-500">
       {/* container div below */}
       <div className="px-4 mx-auto max-w-7xl">
         {/* sub-container */}
@@ -32,7 +32,7 @@ function Navbar() {
             <Link href="#">
               <a className="px-2 py-6 text-xl font-bold">Tech Stack</a>
             </Link>
-            <Link href="#">
+            <Link href="/collection">
               <a className="px-2 py-6 text-xl font-bold text-white">
                 View Your Collection
               </a>
