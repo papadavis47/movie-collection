@@ -1,11 +1,12 @@
 import { movieCategories } from '../../globals/data.js'
 import { useState, useEffect } from 'react'
+import toast, { Toaster } from 'react-hot-toast'
 
 function AddMovieForm() {
   const [filmTitle, setFilmTitle] = useState('')
   const [filmDirector, setFilmDirector] = useState('')
   const [filmNote, setFilmNote] = useState('')
-  const [filmCategory, setFilmCategory] = useState('')
+  const [filmCategory, setFilmCategory] = useState('DVD')
 
   useEffect(() => {
     console.log(filmTitle)
@@ -28,6 +29,7 @@ function AddMovieForm() {
         console.log('something went wrong')
       } else {
         resetForm()
+        toast.success('Added film to collection!')
         console.log('Form submitted well')
       }
     } catch (error) {
@@ -148,6 +150,7 @@ function AddMovieForm() {
               Save
             </button>
           </div>
+          <Toaster />
         </form>
       </div>
     </div>
