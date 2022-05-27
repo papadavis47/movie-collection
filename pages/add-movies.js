@@ -1,10 +1,13 @@
 import React from 'react'
+import AddMovieForm from '../components/AddMovieForm'
+import Title from '../components/Title'
 
 const AddMovies = () => {
   return (
-    <div>
-      <h1>I will move the form here.</h1>
-    </div>
+    <>
+      <Title text="add movie to collection" />
+      <AddMovieForm />
+    </>
   )
 }
 

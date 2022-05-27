@@ -1,5 +1,5 @@
 import { movieCategories } from '../../globals/data.js'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import toast, { Toaster } from 'react-hot-toast'
 
 function AddMovieForm() {
@@ -7,14 +7,6 @@ function AddMovieForm() {
   const [filmDirector, setFilmDirector] = useState('')
   const [filmNote, setFilmNote] = useState('')
   const [filmCategory, setFilmCategory] = useState('DVD')
-
-  useEffect(() => {
-    console.log(filmTitle)
-    console.log(filmDirector)
-    console.log(filmNote)
-    console.log(filmCategory)
-    console.log(typeof filmCategory)
-  }, [filmTitle, filmDirector, filmNote, filmCategory])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -68,6 +60,7 @@ function AddMovieForm() {
                 name="title"
                 type="text"
                 required
+                autoFocus
                 className="block w-full px-3 py-2 placeholder-gray-400 border border-gray-300 rounded-md shadow-sm appearance-none focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
               />
             </div>

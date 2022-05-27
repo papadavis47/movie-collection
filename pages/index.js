@@ -1,11 +1,9 @@
-import AddMovieForm from '../components/AddMovieForm'
 import Title from '../components/Title'
 
 const Home = () => {
   return (
     <>
-      <Title text="movie collection" />
-      <AddMovieForm />
+      <Title text="an app for film lovers" />
     </>
   )
 }
