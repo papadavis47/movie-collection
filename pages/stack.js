@@ -1,7 +1,9 @@
+import Title from '../components/Title'
+
 export default function Stack() {
   return (
-    <div>
-      <h1>This is the page where I write about the stack</h1>
-    </div>
+    <>
+      <Title text="technology stack used here" />
+    </>
   )
 }
