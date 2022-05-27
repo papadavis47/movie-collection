@@ -4,7 +4,7 @@ import { ImStackoverflow, ImGithub, ImTwitter } from 'react-icons/im'
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 mb-10 text-white bg-blue-600">
+    <nav className="sticky top-0 mb-10 text-white bg-blue-600/90">
       {/* container div below */}
       <div className="px-4 mx-auto max-w-7xl">
         {/* sub-container */}
@@ -24,17 +24,20 @@ function Navbar() {
           </div>
           {/* right side of nav */}
           <div className="items-center hidden pr-4 mr-4 space-x-4 justify-self-center md:flex">
-            <Link href="#">
+            <Link href="/about">
               <a className="px-2 py-6 text-xl font-bold text-white">
                 About This App
               </a>
             </Link>
-            <Link href="#">
+            <Link href="/stack">
               <a className="px-2 py-6 text-xl font-bold">Tech Stack</a>
+            </Link>
+            <Link href="/add-movies">
+              <a className="px-2 py-6 text-xl font-bold">Add Movie</a>
             </Link>
             <Link href="/collection">
               <a className="px-2 py-6 text-xl font-bold text-white">
-                View Your Collection
+                View Collection
               </a>
             </Link>
           </div>
