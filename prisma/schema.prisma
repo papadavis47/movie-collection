@@ -18,5 +18,5 @@ id      Int   @default(autoincrement()) @id
 title    String
 director   String
 note String?
-category String
+category String?
 }
