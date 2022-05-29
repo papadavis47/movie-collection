@@ -5,7 +5,7 @@ import Title from '../components/Title'
 const AddMovies = () => {
   return (
     <>
-      <Title text="add movie to collection" />
+      <Title text="add movie" />
       <AddMovieForm />
     </>
   )
